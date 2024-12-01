@@ -4,6 +4,10 @@ body {
 header {
     background-color: skyblue;
 }
-main {background-color: skyblue;
-
-}
+table {
+        border-collapse: collapse;
+        border: 2px solid rgb(140 140 140);
+        font-family: sans-serif;
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+    }
