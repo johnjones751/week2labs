@@ -1,13 +1,58 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-header {
-    background-color: skyblue;
-}
+
+/* spacing */
+
+/* spacing */
+
 table {
-        border-collapse: collapse;
-        border: 2px solid rgb(140 140 140);
-        font-family: sans-serif;
-        font-size: 0.8rem;
-        letter-spacing: 1px;
-    }
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
+
+thead th:nth-child(1) {
+    width: 30%;
+}
+
+thead th:nth-child(2) {
+    width: 20%;
+}
+
+thead th:nth-child(3) {
+    width: 15%;
+}
+
+thead th:nth-child(4) {
+    width: 35%;
+}
+
+th,
+td {
+    padding: 20px;
+}
+/* typography */
+
+html {
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+}
+
+thead th,
+
+th {
+    letter-spacing: 2px;
+}
+
+td {
+    letter-spacing: 1px;
+}
+
+tbody td {
+    text-align: center;
+}
+
+tfoot th {
+    text-align: right;
+}
